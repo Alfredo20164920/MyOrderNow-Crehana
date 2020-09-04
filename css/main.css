@@ -1,14 +1,13 @@
-body{
-    background-color: #fff;
-    color: black;
-    font-family: sans-serif;
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-h1{
-    font-size: 20px;
-    margin-bottom: 10px;
+header,ul{
+    display: flex;
+    align-items: center;
 }
 
-p{
-    color: #dddeee;
+header{
+    justify-content: space-between;
 }
